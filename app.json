@@ -1,0 +1,22 @@
+{
+    "name": "Xray",
+    "description": "Deploy Xray on Heroku.",
+    "keywords": ["heroku", "Xray"],
+    "env": {
+        "UUID": {
+            "description": "Xray UUID",
+            "value": ""
+        },
+        "WS_PATH": {
+            "description": "Xray websocket path",
+            "value": "/"
+        },
+        "BLOCK_CN": {
+            "description": "Xray should block CN",
+            "value": "true"
+        }
+    },
+    "website": "https://github.com/M3chD09/heroku-xray",
+    "repository": "https://github.com/M3chD09/heroku-xray",
+    "stack": "container"
+}
